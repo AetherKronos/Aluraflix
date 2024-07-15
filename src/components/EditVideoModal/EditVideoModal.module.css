@@ -1,0 +1,101 @@
+/* src/components/EditVideoModal.module.css */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: #0D1B2A;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    border: 2px solid #196cd2;
+    box-shadow: 0 0 20px rgba(34, 113, 209, 0.5);
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color: #196cd2;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #196cd2;
+    border-radius: 4px;
+    background-color: #0D1B2A;
+    color: #fff;
+    box-shadow: inset 0 0 5px rgba(34, 113, 209, 0.5);
+  }
+  
+  .formGroup input::placeholder,
+  .formGroup textarea::placeholder {
+    color: #888;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submitButton {
+    background-color: #196cd2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(18, 103, 206, 0.5);
+  }
+  
+  .submitButton:hover {
+    background-color: #196cd2;
+  }
+  
+  .clearButton {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clearButton:hover {
+    background-color: #ccc;
+  }
+  

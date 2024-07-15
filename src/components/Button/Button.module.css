@@ -1,0 +1,26 @@
+/* Button.module.css */
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 55px;
+  }
+  
+  .primary {
+    background-color: #040404;
+    color: #196cd1;
+    border: 2px solid #193bd1;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    width: 155px;
+  }
+  
+  .secondary {
+    background-color: #262626;
+    color: white;
+    border-color: white;
+    border: 1px solid white;
+    width: 155px;
+  }
+  

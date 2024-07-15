@@ -1,0 +1,69 @@
+/* src/components/NewVideoForm.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2b2a2a;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .formGroup input::placeholder,
+  .formGroup textarea::placeholder {
+    color: #888;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submitButton {
+    background-color: #1669cf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #1a5cba;
+  }
+  
+  .clearButton {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clearButton:hover {
+    background-color: #ccc;
+  }
+  

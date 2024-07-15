@@ -1,0 +1,29 @@
+/* Header.module.css */
+.header {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #262626;
+    height: 100px;
+    border-bottom: 4px solid #1d6ed2;
+    box-shadow: 0 0 10px rgba(34, 113, 209, 0.5); /* Efecto de brillo */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.header:hover {
+    box-shadow: 0 0 20px rgb(26, 108, 209); /* Aumento de brillo */
+}
+
+.buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 400px;
+}
+
+.titleImage {
+    height: 40px;
+}

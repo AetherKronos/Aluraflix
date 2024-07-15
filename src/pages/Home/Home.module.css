@@ -1,0 +1,7 @@
+/* src/pages/Home.module.css */
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #181818;
+  }
+  

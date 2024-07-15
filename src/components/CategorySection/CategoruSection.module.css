@@ -1,0 +1,39 @@
+/* src/components/CategorySection.module.css */
+.section {
+    margin: 20px 0;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 155px;
+  }
+  
+  .videoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Adicione cores específicas para cada categoria */
+  .title.frontend {
+    background-color: #1ab1f7;
+  }
+  
+  .title.backend {
+    background-color: #fd2222;
+  }
+  
+  .title.mobile {
+    background-color: #2dfd68;
+  }
+  
+  .title.innovacion {
+    background-color: #ae32fc;
+  }
+  

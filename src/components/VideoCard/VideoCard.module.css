@@ -1,0 +1,33 @@
+/* src/components/VideoCard.module.css */
+.card {
+    position: relative;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .deleteButton, .editButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover, .editButton:hover {
+    color: #9000ff; 
+  }
+  
